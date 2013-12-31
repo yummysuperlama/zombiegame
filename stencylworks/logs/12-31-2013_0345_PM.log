@@ -48,3 +48,81 @@
 </r>
 [LOG] http://www.stencyl.com/stencyl/whatsnew/
 [LOG] Frame was maximized
+[LOG] Action: Game
+[LOG] CREATING A BLANK GAME
+[LOG] Saving a new game.
+[LOG] Save in place.
+java.io.FileNotFoundException: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\game.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at stencyl.sw.util.FileUtil.readFile(FileUtil.java:223)
+	at stencyl.core.lib.io.IO.isValidXML(IO.java:286)
+	at stencyl.sw.io.write.GameFileWriter.write(GameFileWriter.java:66)
+	at stencyl.sw.io.write.MasterWriter.saveGame(MasterWriter.java:80)
+	at stencyl.sw.io.write.MasterWriter.saveGame(MasterWriter.java:330)
+	at stencyl.sw.app.tasks.SaveGameTask.doInBackground(SaveGameTask.java:49)
+	at stencyl.sw.app.tasks.SaveGameTask.doInBackground(SaveGameTask.java:17)
+	at org.jdesktop.swingworker.SwingWorker$1.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.jdesktop.swingworker.SwingWorker.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[LOG] Copy file from: data\ios\inner-joystick@4x.png to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\inner-joystick@4x.png
+[LOG] Copy file from: data\ios\inner-joystick@2x.png to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\inner-joystick@2x.png
+[LOG] Copy file from: data\ios\inner-joystick@1.5x.png to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\inner-joystick@1.5x.png
+[LOG] Copy file from: data\ios\inner-joystick.png to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\inner-joystick.png
+[LOG] Copy file from: data\ios\outer-joystick@4x.png to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\outer-joystick@4x.png
+[LOG] Copy file from: data\ios\outer-joystick@2x.png to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\outer-joystick@2x.png
+[LOG] Copy file from: data\ios\outer-joystick@1.5x.png to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\outer-joystick@1.5x.png
+[LOG] Copy file from: data\ios\outer-joystick.png to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\outer-joystick.png
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\resources\data.xml to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\resources\data.xml.bak
+[LOG] Writing out scenes.
+[LOG] Copying over snippets.
+java.io.FileNotFoundException: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\snippets\list.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at stencyl.sw.util.FileUtil.readFile(FileUtil.java:223)
+	at stencyl.core.lib.io.IO.isValidXML(IO.java:286)
+	at stencyl.sw.io.write.resource.SnippetsWriter.write(SnippetsWriter.java:86)
+	at stencyl.sw.io.write.MasterWriter.saveGame(MasterWriter.java:99)
+	at stencyl.sw.io.write.MasterWriter.saveGame(MasterWriter.java:330)
+	at stencyl.sw.app.tasks.SaveGameTask.doInBackground(SaveGameTask.java:49)
+	at stencyl.sw.app.tasks.SaveGameTask.doInBackground(SaveGameTask.java:17)
+	at org.jdesktop.swingworker.SwingWorker$1.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.jdesktop.swingworker.SwingWorker.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\favorites.xml
+[LOG] Write String out as file to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
+[LOG] Activated: Dashboard
+[ERR] Could not delete file: C:\Users\YummySuperLama\AppData\Local\Temp\stencyl8126891961036073417\sandbox\build\code
+[LOG] Took 193ms
+[LOG] Loading attribute into tree: Players
+[LOG] Loading attribute into tree: Tiles
+[LOG] Loading attribute into tree: Doodads
+[LOG] Loading attribute into tree: Actors
+[LOG] Loading attribute into tree: Regions
+[LOG] Device OS: 5.0
+[LOG] Simulator OS: 5.0
+[LOG] Could not parse: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\resources\data.xml.bak
+[LOG] Action: Save Game As...
+[LOG] Action: Save Game
+[LOG] Save in place.
+[LOG] Copy file from: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\game.xml to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\game.xml.bak
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\resources\data.xml to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\resources\data.xml.bak
+[LOG] Writing out scenes.
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\snippets\list.xml to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\snippets\list.xml.bak
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\games\zOMBIE GAME\favorites.xml
+[LOG] Write String out as file to: C:\Users\YummySuperLama\Documents\GitHub\zombiegame\stencylworks\prefs\favorites.xml
+[LOG] Done writing game.
