@@ -1,0 +1,2 @@
+global.user=taihartman
+global.password=14b93d6034608603212b59b64f4f9c2613c0371d
